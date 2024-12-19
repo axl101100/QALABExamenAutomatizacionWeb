@@ -23,8 +23,7 @@ public class LoginStepDef {
         driver = getDriver();
         driver.get("https://qalab.bensg.com/store/pe/");
         screenShot();
-
-        // Usar el método reutilizable de LoginSteps
+        
         loginSteps = new LoginSteps(driver);
         loginSteps.clickIniciarSesionYValidarURL();
 

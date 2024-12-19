@@ -69,8 +69,4 @@ public class LoginSteps {
         this.driver.findElement(LoginPage.loginButton).click();
     }
 
-    public void validarAutenticacion() {
-
-
-    }
 }
